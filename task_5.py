@@ -1,6 +1,8 @@
-def fn():
-    """
-    This function should return float value
-    """
+def fn(a):
+    a=float(a)
+    return a
+
+print(fn(4))
+ 
 
  
