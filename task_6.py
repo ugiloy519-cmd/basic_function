@@ -1,4 +1,5 @@
-def fn():
-    """
-    This function should return negative integer value 
-    """    
+def fn(a):
+    a = -int(a)
+    return a
+
+print(fn(8))
